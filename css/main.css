@@ -217,9 +217,38 @@ textarea {
   /* - Aside - */
 
   aside {
+    background-color: #527158;
     display: flex;
     justify-content: center;
   }
+
+  aside .form {
+    margin-top: 30px;
+  }
+   
+  input[type=text] {
+    box-sizing: border-box;
+    width: 100%;
+    color: #2a423a;
+    font-style: italic;
+    padding: 1em;
+  }
+   
+  input[type=button] {
+    width: 100%;
+    padding: 20px 0;
+    margin-top: 20px;
+    background-color: #2a423a;
+    font-family: 'Poppins', Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    font-size: 1.125em;
+    color: #e2e3ed;
+    border: none;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  /*Features*/
 
   .features {
     display: flex;
@@ -259,11 +288,13 @@ textarea {
   /* ===========================About Page================================== */
 
   .mission {
+    background-color: #527158;
     display: flex;
     justify-content: center;
   }
 
   .contact-section {
+    background-color: #2a423a;
     display: flex;
     justify-content: center;
   }
@@ -275,6 +306,7 @@ textarea {
   /* =============================FAQ Page================================= */
 
   .faq {
+    background-color: #527158;
     display: flex;
     justify-content: center;
   }
@@ -293,6 +325,10 @@ textarea {
 
   .faq-content {
     margin-bottom: 50px;
+  }
+
+  .faq-content h4 {
+    line-height: 1.333;
   }
 
 /* ==========================================================================
