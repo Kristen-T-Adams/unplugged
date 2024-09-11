@@ -209,9 +209,19 @@ textarea {
   /* ------------------------------ Mobile Styles - Homepage ------------- */
 
   .hero-area {
+    background: url(../img/unplugged-retreat.jpg);
+    background-size: cover;
+    background-position: center;
     display: flex;
     justify-content: center;
     margin: 50px 0;
+  }
+
+  .hero-area h1 {
+    font-size: 2.25em;
+    font-family: 'Poppins', Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    line-height: 1.2;
   }
 
   /* - Aside - */
@@ -251,6 +261,10 @@ textarea {
   /*Features*/
 
   .features {
+    background: url(../img/unplugged-retreat-features.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     display: flex;
     justify-content: center;
   }
@@ -271,18 +285,26 @@ textarea {
   }
   
   .features p {
+    text-align: center;
     margin: 0;
   }
 
   /* - Reviews - */
 
   .reviews {
+    background-color: #2a423a;
     display: flex;
     justify-content: center;
   }
 
+  .reviews h2 {
+    margin-bottom: 40px;
+    line-height: 1;
+  }
+
   .reviews h3 {
     width: 55%;
+    margin: 20px 0;
   }
 
   /* ===========================About Page================================== */
@@ -321,6 +343,7 @@ textarea {
 
   .faq h2 {
     margin-bottom: 40px;
+    line-height: 1;
   }
 
   .faq-content {
