@@ -94,6 +94,7 @@ textarea {
    }
 
    body {
+    color:#e2e3ed;
     font-family: 'Open Sans', sans-serif;
     font-size: 1em;
     text-align: left;
@@ -135,10 +136,19 @@ textarea {
     margin: 50px 0;
    }
 
+   img {
+    width: 100%;
+   }
+
+   figure {
+    margin: 0;
+   }
+
   /*------------------------Base Header - Footer Styles---------------------*/
 
 
   header {
+    background-color: #202322;
     display: flex;
     justify-content: center;
     padding: 15px 0; 
@@ -170,6 +180,7 @@ textarea {
   }
 
   footer {
+    background-color: #202322;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -207,6 +218,9 @@ textarea {
   }
 
   /* ------------------------------ Mobile Styles - Homepage ------------- */
+  header figure {
+    width: 60%;
+  }
 
   .hero-area {
     background: url(../img/unplugged-retreat.jpg);
@@ -465,10 +479,12 @@ textarea {
 
     header nav {
       width: 20%;
+      align-items: center;
     }
 
     header nav ul {
       justify-content: space-between;
+      align-items: center;
     }
 
     .header-divider {
