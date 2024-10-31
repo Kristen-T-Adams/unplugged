@@ -209,6 +209,7 @@ textarea {
   footer .social-icons p {
     display: flex;
     justify-content: center;
+    align-items: center;
   }
 
   footer p {
