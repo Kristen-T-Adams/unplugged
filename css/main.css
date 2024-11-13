@@ -207,9 +207,11 @@ textarea {
   }
 
   footer .social-icons p {
+    font-size: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 20px; 
   }
 
   footer p {
