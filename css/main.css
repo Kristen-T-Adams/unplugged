@@ -302,6 +302,11 @@ textarea {
     align-items: flex-start;
     flex-flow: row wrap;
   }
+
+  .features .fontawesome-icon {
+    font-size: 55px;
+    margin: 30px;
+      }
   
   .features p {
     text-align: center;
